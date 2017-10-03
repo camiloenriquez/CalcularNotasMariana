@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nuevofondo"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/Mat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desarrolloMovil"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/Mat1Not1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota1Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:id="@+id/Mat1Not2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota2Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:id="@+id/Mat1Not3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota3Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/Mat1Resultado"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:maxLength="3"
+                android:text="Resultado"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="18sp"
+                tools:text="@string/resultadoMat" />
+
+            <TextView
+                android:id="@+id/Mat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seguridadInformatica"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Mat2Not1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota1Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="?attr/colorBackgroundFloating" />
+
+            <EditText
+                android:id="@+id/Mat2Not2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota2Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:id="@+id/Mat2Not3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota3Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/Mat2Resultado"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:maxLength="3"
+                android:text="Resultado"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                tools:text="@string/resultadoMat" />
+
+            <TextView
+                android:id="@+id/Mat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PMI"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Mat3Not1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota1Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <EditText
+                android:id="@+id/Mat3Not2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota2Mat"
+                android:inputType="number|numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <EditText
+                android:id="@+id/Mat3Not3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/DigiteNota3Mat"
+                android:inputType="numberDecimal"
+
+
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/Mat3Resultado"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Resultado"
+                android:textColor="?android:attr/textColorHighlight"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="                                                                Resultado" />
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:onClick="CalcularTodo"
+                android:text="@string/calcularPonderadoSemestre" />
+
+            <Button
+                android:id="@+id/btnAcercaDe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="Acerca"
+                android:text="@string/acerca" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

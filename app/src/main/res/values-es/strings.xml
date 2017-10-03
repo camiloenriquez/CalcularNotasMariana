@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcular Notas Mariana</string>
+    <string name="desarrolloMovil">Desarrollo Movil</string>
+    <string name="DigiteNota1Mat">Digite Nota 1</string>
+    <string name="DigiteNota2Mat">Digite Nota 2</string>
+    <string name="DigiteNota3Mat">Digite Nota 3</string>
+    <string name="resultadoMat">Resultado</string>
+    <string name="seguridadInformatica">Seguridad Informatica</string>
+    <string name="PMI">PMI</string>
+    <string name="calcularPonderadoSemestre">Calcular Ponderado Semestre</string>
+    <string name="guardaTuEstadoDeNotas">Guarda tu estado de notas</string>
+    <string name="acerca">Acerca</string>
+    <string name="verHorario">Ver Horario</string>
+    <string name="contactoTelefonicoFrank">Contacto telefonico 3015807225</string>
+    <string name="contactoTelefonicoJuan">Contacto telefonico 3173979899</string>
+    <string name="contactoTelefonicoVilla">Contacto telefonico 3177728793</string>
+    <string name="salir">Salir</string>
+    <string name="relleneTodosLosCampos">Rellene todos los campos</string>
+    <string name="teHaceFaltaDigitarDosNotas">Te hace falta digitar dos notas</string>
+    <string name="teHaceFaltaDigitarUnaNota">Te hace falta digitar una nota</string>
+    <string name="elResultadoDeLosDosPrimerosCortes">El resulado de los dos primeros cortes es: </string>
+    <string name="elResultadoDeLPonderadoEs">El resulado del ponderado es: </string>
+    <string name="teHaceFalta">Te hace falta </string>
+    <string name="paraPasarLaMateria"> para pasar la materia</string>
+    <string name="lasNotasMayoresA5NoExisten">Las notas mayores a 5 no existen</string>
+    <string name="debesPonerUnNumeroEntre0y5">Debes poner un numero entre 0 y 5</string>
+   <string name="calculaTuPromedio">Calcula tu promedio</string>
+    <string name="niCon5PasasLaMateria">ni 5 pasas la materia</string>
+
+</resources>

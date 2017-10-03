@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/simpson"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFrank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Franklin Jimnez"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnFrank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="verHorarioFrank"
+                android:text="@string/verHorario" />
+
+            <TextView
+                android:id="@+id/infoFrank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="?attr/colorBackgroundFloating"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/contactoTelefonicoFrank" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="216dp" />
+
+            <TextView
+                android:id="@+id/tvJuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juan Carlos Guerrero"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnJuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="verHorarioJuan"
+                android:text="@string/verHorario"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/infoJuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="?android:attr/colorBackgroundFloating"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/contactoTelefonicoJuan" />
+
+            <ImageView
+                android:id="@+id/image_view1"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:layout_weight="0.58" />
+
+            <TextView
+                android:id="@+id/tvVilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Javier Jose Villalba"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnVilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="verHorarioVilla"
+                android:text="@string/verHorario"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/infoVilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="?attr/colorBackgroundFloating"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/contactoTelefonicoVilla" />
+
+            <ImageView
+                android:id="@+id/image_view2"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:layout_weight="0.58" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="salir"
+                android:text="@string/salir" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

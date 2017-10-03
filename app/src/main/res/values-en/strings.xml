@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculate Notes Mariana</string>
+    <string name="desarrolloMovil">Mobile Development</string>
+    <string name="DigiteNota1Mat">Type Note 1</string>
+    <string name="DigiteNota2Mat">Type Note 2</string>
+    <string name="DigiteNota3Mat">Type Note 3</string>
+    <string name="resultadoMat">Result</string>
+    <string name="seguridadInformatica">Informatic Security</string>
+    <string name="PMI">PMI</string>
+    <string name="calcularPonderadoSemestre">Calculate weighted Semester</string>
+    <string name="guardaTuEstadoDeNotas">Save your notes status</string>
+    <string name="acerca">about</string>
+    <string name="verHorario">See schedule</string>
+    <string name="contactoTelefonicoFrank">Phone contact 3015807225</string>
+    <string name="contactoTelefonicoJuan">Phone contact 3173979899</string>
+    <string name="contactoTelefonicoVilla">Phone contact 3177728793</string>
+    <string name="salir">Exit</string>
+    <string name="relleneTodosLosCampos">fill in all the fields</string>
+    <string name="teHaceFaltaDigitarDosNotas">you need to enter two notes</string>
+    <string name="teHaceFaltaDigitarUnaNota">you need to enter a note</string>
+    <string name="elResultadoDeLosDosPrimerosCortes">The result of the first two cuts is: </string>
+    <string name="elResultadoDeLPonderadoEs">The weighted result is: </string>
+    <string name="teHaceFalta">you need </string>
+    <string name="paraPasarLaMateria"> to pass the matter</string>
+    <string name="lasNotasMayoresA5NoExisten">Notes greater than 5 do not exist</string>
+    <string name="debesPonerUnNumeroEntre0y5">You must enter a number between 0 and 5</string>
+    <string name="calculaTuPromedio">calculate your average</string>
+    <string name="niCon5PasasLaMateria">ni with 5 raisins</string>
+</resources>
