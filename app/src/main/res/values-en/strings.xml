@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
     <string name="app_name">Calculate Notes Mariana</string>
     <string name="desarrolloMovil">Mobile Development</string>
     <string name="DigiteNota1Mat">Type Note 1</string>
